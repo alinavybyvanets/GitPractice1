@@ -1,0 +1,62 @@
+body {
+  background-color: #e0f7fa;
+text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffb6c1;
+    padding: 20px;
+ 
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.gallery-photo {
+    border-radius: 0;  
+    width: 300px; 
+    height: auto;
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    background-color: #ffb6c1; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.nav a:hover {
+    background-color: #ff94a1; 
+}
